@@ -2,6 +2,7 @@ baseURL = "https://example.com"
 title   = "Norimaki"
 languageCode = "ja-jp"
 theme = "hello-friend-ng"
+paginate =10
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
