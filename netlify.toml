@@ -1,7 +1,7 @@
 [build]
 context = "production"
 publish = "public"
-command = "hugo --theme=hello-friend-ng --buildDrafts --gc --minify"
+command = "hugo --theme=hello-friend-ng"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
