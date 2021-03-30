@@ -1,4 +1,5 @@
 [build]
+context = "production"
 publish = "public"
 command = "hugo --theme=hello-friend-ng --buildDrafts --gc --minify"
 
@@ -28,3 +29,11 @@ HUGO_VERSION = "ç"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+
+[[redirects]]
+  from = "/search"
+  to = "https://api.mysearch.com"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

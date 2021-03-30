@@ -47,6 +47,9 @@ disableHugoGeneratorInject = false
   category = "categories"
   series   = "series"
 
+ [minify]
+ disableJSON = true
+ 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
